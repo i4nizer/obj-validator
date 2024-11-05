@@ -73,7 +73,7 @@ const validateField = (field, value) => {
 const validate = (fields, obj) => {
     
     // Contain status and fields
-    const status = { error: null, result: {} }
+    const status = { error: '', result: {} }
 
     // Check for missing fields
     const missingFields = getMissingFields(fields, obj)
@@ -86,6 +86,7 @@ const validate = (fields, obj) => {
         const error = validateField(field, value)
         
         if (error) status.error = error
+        status.result[field.name] = value
     }
 
     // validation status
