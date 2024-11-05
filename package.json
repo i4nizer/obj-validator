@@ -1,6 +1,6 @@
 {
   "name": "@i4nizer/obj-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A useful validation module for handling required fields, string, and number validations. Best use for validating requests.",
   "main": "index.js",
   "types": "index.d.ts",
