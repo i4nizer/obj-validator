@@ -82,6 +82,8 @@ const validate = (fields, obj) => {
     // Validate each field
     for (const field of fields) {
         if (status.error) break
+        if (!obj[field.name]) continue
+
         const value = obj[field.name]
         const error = validateField(field, value)
         
