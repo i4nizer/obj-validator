@@ -1,0 +1,25 @@
+{
+  "name": "@i4nizer/obj-validator",
+  "version": "1.0.0",
+  "description": "A useful validation module for handling required fields, string, and number validations. Best use for validating requests.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i4nizer/obj-validator.git"
+  },
+  "keywords": [
+    "obj",
+    "validator",
+    "obj-validator",
+    "request",
+    "middleware",
+    "express"
+  ],
+  "author": "i4nizer",
+  "license": "MIT",
+  "dependencies": {}
+}
